@@ -2,14 +2,20 @@ import React from 'react';
 
 const HomePage = () => (
     <>
-    <h1>Hello, welcome to my blog!</h1>
+        
+		<div class="row">
+		  <div class="column left" >
+			<h3>AKHILA CYRIAC PANACKAL</h3>
+			<h5>Full stack developer</h5>
+			<h6>akhilacyriacpanackal@gmail.com | +49 179 4605820 | Letterhaus Str.1, 36037 Fulda</h6>
+		  </div>
+		  <div class="column right">
+			<img src="Akhilapic.jpg" alt="Italian Trulli" width="100" height="100"/>
+			<p></p>
+		  </div>
+		</div>  
     <p>
-        Welcome to my blog! Proin congue
-        ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-        Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-        non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-        eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-        sodales purus euismod.
+        Welcome to my blog! 
     </p>
     <p>
         Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
