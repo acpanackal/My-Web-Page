@@ -23,13 +23,13 @@ const AddComment = ({ articleName, setArticleInfo }) => {
             <h3>Add a Comment</h3>
             <label>
                 Name:
-                <input type="text" value={username} onChange={(event) => setUsername(event.target.value)} />
+                <input type="text" value={username} onChange={(event) => setUsername(event.target.value)}/>
             </label>
             <label>
                 Comment:
                 <textarea rows="4" cols="40" value={commentText} onChange={(event) => setCommentText(event.target.value)} />
             </label>
-            <button onClick={() => addComment()}>Add Comment</button>
+            <button onClick={() => addComment()}>Comment</button>
         </div>
     );
 }

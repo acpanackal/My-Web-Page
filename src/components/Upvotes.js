@@ -11,7 +11,7 @@ const Upvotes = ({ articleName, upvotes, setArticleInfo }) => {
     }
     return (
         <div id="upvotes-div">
-            <button onClick={() => upvoteArticle()}>Add Upvote</button>
+            <button onClick={() => upvoteArticle()}><i class="fas fa-thumbs-up"></i> Like</button>
             <p>This post has been upvoted {upvotes} times </p>
         </div>
 
