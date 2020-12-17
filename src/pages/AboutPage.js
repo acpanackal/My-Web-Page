@@ -2,12 +2,13 @@ import React from 'react';
 
 const AboutPage = () => (
     <>
-        <h1>Here is what I do when I am free...</h1>
+        <h1 class="hobbies">Here is what I do when I am free...</h1>
         
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
                    
                     
                 </ol>
@@ -28,6 +29,13 @@ const AboutPage = () => (
                                 <h3>Cycling</h3>
                                 <p>Cycling is happiness</p>
                             </div>
+                </div>
+                <div class="item">
+                    <img src="travel.jpg" alt="travel" width="460" height="345" />
+                    <div class="carousel-caption">
+                        <h3>Travelling</h3>
+                        <p>Travel and explore</p>
+                    </div>
                 </div>
 
                             </div>
