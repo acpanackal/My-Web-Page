@@ -1,56 +1,30 @@
 import React from 'react';
 
 const AboutPage = () => (
-    <>
-        <h1 class="hobbies">Here is what I do when I am free...</h1>
-        
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                   
-                    
-                </ol>
+    <div className="page-shell">
+        <h1 className="hobbies">About me</h1>
 
-            <div class="carousel-inner" role="listbox">
+        <div className="about-grid">
+            <div className="info-panel">
+                <p>
+                    I’m a software developer with a growing focus on AI-driven product design, automation, and modern web experiences.
+                    I enjoy combining technical depth with practical problem-solving to build systems that are useful in the real world.
+                </p>
+                <ul className="check-list">
+                    <li>Product-minded developer</li>
+                    <li>Interest in AI and automation workflows</li>
+                    <li>Focused on clean, maintainable execution</li>
+                </ul>
+            </div>
 
-                <div class="item active">
-                    <img src="cakes.jpg" alt="Chania" width="460" height="345"/>
-                        <div class="carousel-caption">
-                            <h3>Baking</h3>
-                            <p>Love Baking</p>
-                        </div>
-                </div>
-
-                <div class="item">
-                     <img src="cycle.jpg" alt="Chania" width="460" height="345"/>
-                            <div class="carousel-caption">
-                                <h3>Cycling</h3>
-                                <p>Cycling is happiness</p>
-                            </div>
-                </div>
-                <div class="item">
-                    <img src="travel.jpg" alt="travel" width="460" height="345" />
-                    <div class="carousel-caption">
-                        <h3>Travelling</h3>
-                        <p>Travel and explore</p>
-                    </div>
-                </div>
-
-                            </div>
-
-                            
-                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+            <div className="info-panel">
+                <p>
+                    Outside of work, I value creativity, learning, and balanced living. I enjoy exploring new ideas, building things with purpose,
+                    and staying curious about both technology and the world around me.
+                </p>
+            </div>
         </div>
-    </>
+    </div>
 );
 
 export default AboutPage;
